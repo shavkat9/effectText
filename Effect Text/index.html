@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Responsive</title>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <img src="./images//star.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+            <img src="./images//books.png" class="menu__icon">
+        </nav>
+       <div class="text__box">
+           <h1>I am <span class="text__span">Shavkat Berdibekov</span></h1>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo <br> beatae aliquid nihil, mollitia natus
+             exercitationem v</p>
+             <a href="#">Conatct Me</a>
+             <a class="btn" href="#">Download CV</a>
+       </div>
+       <img src="./images//dub.png" class="user__img">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".text__span", {
+            strings: ["Shavkat Berdibekov", "Web Developer", "UI Developer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+</body>
+</html>
